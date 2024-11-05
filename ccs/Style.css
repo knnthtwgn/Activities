@@ -1,0 +1,181 @@
+/* Vendo Machine */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 400px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.form-check-label {
+    font-size: 14px;
+}
+
+.form-check {
+    margin-bottom: 5px;
+}
+
+.border {
+    padding: 10px;
+    border: px solid #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-label, .form-select, .form-control {
+    font-size: 14px;
+}
+
+.btn-secondary {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.mt-4, .mb-3, .mb-4 {
+    margin: 0;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+.text-danger {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.bold-line {
+    width: 100%; 
+    height: 5px; 
+    background-color: #000; 
+    margin-top: 15px; 
+    margin-bottom: 0; 
+}
+
+/* Face app */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#image-preview {
+    width: 600px; /* Updated image preview width */
+    height: 600px; /* Updated image preview height */
+    border: 3px solid black; /* Default border color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    overflow: hidden; /* Clip any overflowing parts of the image */
+}
+
+*/
+input[type="range"] {
+    width: 100%; /* Make the slider take full width of its container */
+    margin-top: 10px; /* Add some spacing */
+}
+
+
+/* Static login */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.signin-container {
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    background-color: #D3D3D3; /* Change to a lighter gray */
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signin-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.signin-container input[type="text"],
+.signin-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.signin-container input[type="text"]:focus,
+.signin-container input[type="password"]:focus {
+    border-color: #4CAF50; /* Green focus border */
+    outline: none;
+}
+
+.signin-container input[type="text"],
+.signin-container input[type="password"] {
+    width: 80% !important; /* Adjusted width with !important to ensure it applies */
+    max-width: 300px; /* Optional maximum width */
+    padding: 12px;
+    margin: 10px auto; /* Center-align the inputs */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+
+.signin-container input[type="submit"]:hover,
+.signin-container .btn-custom:hover { /* Adjusted button hover */
+    background-color: darkblue; /* Darker blue on hover */
+}
+
+.error {
+    color: #d9534f; /* Red color for error messages */
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.success {
+    color: #5cb85c; /* Green color for success messages */
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
